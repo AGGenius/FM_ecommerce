@@ -1,0 +1,271 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Kumbh Sans', sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+header {
+    width: 100;
+    height: 9%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.mainNav {
+    width: 75vw;
+    height: 100%;
+
+    border-bottom: 1px solid lightgray;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__center {
+    list-style: none;
+
+    color: gray;
+    font-size: .8em;;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 1em;
+}
+
+.menu__center li {
+    margin: 1em;
+}
+
+.menu__side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__side img {
+    width: 50px;
+    height: 50px;
+    margin: 1em;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.productPage {
+    width: 75vw;
+    height: 60%;
+    max-height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-top: 8%;
+}
+
+.gallery {
+    width: 70%;
+    max-width: 800px;
+    max-height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__image {
+    max-width: 500px;
+    width: 80%;
+    max-height: 500px;
+    height: auto;
+
+    border-radius: 10px;
+}
+
+.galleryPreview {
+    max-width: 500px;
+    width: 80%;
+    max-height: 500px;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1em;
+}
+
+.galleryPreview li {
+    max-width: 20%;
+    height: auto;
+    list-style: none;
+}
+
+.galleryPreview--content{  
+    max-width: 100%;
+    height:auto;
+
+    border-radius: 10px;
+}
+
+.descriptionStore {
+    width: 50%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    padding-top: 10vw;
+}
+
+.descriptionStore__tittle {
+     color: orange;
+     font-size: .7em;
+     font-weight: 700;
+
+     margin-bottom: 1em;
+}
+
+.descriptionStore__subtittle {
+    font-size: 2em;
+
+    margin-bottom: 1em;;
+}
+
+.descriptionStore__p {
+    font-size: .8em;
+    color: hsl(219, 9%, 45%);
+
+    margin-bottom: 1em;
+}
+
+.descriptionStore__price {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+.descriptionStore__discount {
+    font-size: .7em;
+    color: orange;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 5px;;
+
+    padding: .3em .6em;
+    margin-left: .8em;
+}
+
+.descriptionStore__discountedprice {
+    text-decoration: line-through;
+    color: hsl(220, 14%, 75%);
+    font-size: .7em;
+
+    margin-bottom: 2em;
+}
+
+.buyItem {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectCuantity {
+    width: 45%;
+    max-width: 200px;
+    height: 100%;
+
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 10px;;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectCuantity__button {
+    font-size: 1.5em;
+    color: orange;
+    font-weight: 700;
+    background-color: hsl(223, 64%, 98%);
+    border: 0;
+
+    padding: .2em .3em;
+}
+
+.selectCuantity__text {
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.addToCart {
+    width: 45%;
+    max-width: 200px;
+    height: 100%;
+
+    background-color: darkorange;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addToCart__icon {
+    width: 15px;
+    height: 15px;
+
+    margin-right: 1.5em;
+}
